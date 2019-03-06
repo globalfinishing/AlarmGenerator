@@ -27,7 +27,7 @@
  * user guide available at https://docs.gradle.org/4.1/userguide/tutorial_java_projects.html
  */
 
-version = '0.1-SNAPSHOT'
+version = '0.2-SNAPSHOT'
 
 //defaultTasks 'clean', 'build'
 

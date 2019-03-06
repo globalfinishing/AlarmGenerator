@@ -30,11 +30,9 @@ import java.util.Map;
 public class Tag implements Comparable<Tag> {
 
     private final String name;
-    private String fullName = null;
-    /** Set after calling compile () */
-    private String fullDesc = null;
-    /** Set after calling compile () */
-    private Meta meta = null;
+    private String fullName = "";
+    private String fullDesc = "";
+    private Meta meta = new Meta("");
     private final String type;
     private Map<String, Meta> comments = null;
     private final Map<String, Tag> tags = new LinkedHashMap<>();
