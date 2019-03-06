@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2
+
+- Fixed a Null Pointer Exception and bug fixes
+
 ## v0.1
 
 - Code refactoring
